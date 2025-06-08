@@ -1,4 +1,5 @@
 //Singleton - there should be only one instance.
+// Mutex static hoga kyuki, static member function access kr raha h mutex ko
 
 #include<iostream>
 #include<string>
