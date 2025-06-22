@@ -48,8 +48,10 @@ int main()
     Logger* logger2=Logger::getLogger();
     logger2->Log("this msg is from logger2");
 
-    cout<<"logger1 is:"<<&logger1<<endl;
+    cout<<"logger1 is:"<<&logger1<<endl; //address of pointer
     cout<<"logger2 is:"<<&logger2<<endl;
+
+    cout<<logger1<<" "<<logger2<<endl;  //actual address of object 
 
     return 0;
 }
